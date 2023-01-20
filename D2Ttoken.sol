@@ -3,7 +3,8 @@ imported. so the first parts of the contract is about libraries and other contra
 pragma solidity ^0.8.0;
 /*the first library that is implemented is SafeMath. The SafeMath library validates if an arithmetic operation
  would result in an integer overflow/underflow. If it would, the library throws an exception, effectively reverting the transaction
- Since Solidity 0.8, the overflow/underflow check is implemented on the language level - it adds the validation to the bytecode during compilation.
+ Since Solidity 0.8, the overflow/underflow check is implemented on the language level - it adds the validation to the bytecode during compilation.**/
+ 
 library SafeMath {
     /**
      * @dev Returns the addition of two unsigned integers, with an overflow flag.
